@@ -13,7 +13,7 @@ Citizen.CreateThread(function()
 
     VorpInv.RegisterUsableItem("consumable_haycube", function(data)
 
-        VorpInv.subItem(data.source, "consumale_haycube", 1)
+        VorpInv.subItem(data.source, "consumable_haycube", 1)
         TriggerClientEvent("vorp:TipRight", data.source, "You're using some hay", 5000)
         TriggerClientEvent("syn:haycube", data.source)
     end)
